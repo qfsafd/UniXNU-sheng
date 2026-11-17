@@ -125,6 +125,9 @@ jobs:
       - name: fetch Wi-Fi sources
         working-directory: device
         run: python3 drivers/Ath12kWifi/tools/fetch-sources.py
+      - name: vendor firmware inputs
+        working-directory: device
+        run: python3 scripts/extract-files.py
       - name: package
         working-directory: device
         env:
