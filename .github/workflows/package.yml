@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: UniXNU/UniXNU
-          ref: 21d683dff61c66f219f03ab9d8b9249026514788 # main at 2026-11-16; 82b847c4 carries the malformed mesa patch
+          ref: 41e390884e1dde0a4b93ea375c2b5ba0d0955cf8 # main at 2026-11-16; 82b847c4 carries the malformed mesa patch
           path: UniXNU
           submodules: recursive
       - uses: actions/checkout@v4
